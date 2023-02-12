@@ -32,7 +32,7 @@ while(not wifi.radio.ap_info):
 
 # MQTT Topic
 # Use this topic if you'd like to connect to a standard MQTT broker
-mqtt_topic = "test/message/" + deviceid
+mqtt_topic = "test/message/cputemp/" + deviceid
 
 # Adafruit IO-style Topic
 # Use this topic if you'd like to connect to io.adafruit.com
